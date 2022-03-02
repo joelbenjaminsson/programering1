@@ -1,0 +1,29 @@
+
+print("fungerar vinter brottning?") 
+
+svar = input("vill du svara på några frågor? ")
+if svar != "ja":
+  exit()
+
+print("okej låt oss köra")
+
+svar = input("är sporten populär? ")
+if svar == "ja":
+  svar = input("är sporten kvinnovänlig? ")
+  if svar == "ja":
+    svar = input("utföra sporten varma ställen? ")
+    if svar == "ja":
+      print("utöva sporten")
+    else:
+      print("bygg en vinter boxningshall")
+      print("utöva sporten")
+  else:
+    print("Genus Program")
+    exit()
+else:
+    print("bra marknadsföring")
+    exit()
+  
+   
+  
+  
